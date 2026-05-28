@@ -105,6 +105,10 @@ nav ul li a:hover{
     transform: scale(1.2);
 }
 
+.content-card-lore
+    
+
+
 .card-lore{
     margin-top: 3rem;
     height: 100%;
@@ -140,5 +144,3 @@ nav ul li a:hover{
     border: 3px solid #373736;
     border-radius: 10px;
 }
-
-
