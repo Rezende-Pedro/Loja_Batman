@@ -75,7 +75,8 @@ nav ul li a:hover{
  
  .card-product img{
     width: 100%;
-    height: 65%;
+    height: 300px;
+    object-fit: cover; /*fFaz a imagem preencher o espaço sem amassar*/   
     
  }
  .card-content{
