@@ -142,12 +142,10 @@ nav ul li a:hover{
     border-radius: 10px;
 }
 
-footer{
-    background: var(--bg-card);
-    }
 .footer-container{
+    background: var(--bg-rgba);
     margin-top: 50px;
-    padding: 40px 30px;
+    padding: 40px 3%;
     display: flex;
     gap: 5vw;
     display:grid ;
@@ -170,6 +168,11 @@ h4{
     text-decoration: none;
     color: var(--text-color);
 }
+
+.footer-container a:hover{
+    color: var(--btn-color);    
+    text-decoration:underline;  
+}
 .footer-container li{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
@@ -181,8 +184,25 @@ h4{
     width: 2rem;
 }
 
-
-
 .redes-sociais{
     margin-top: 20px;
+    cursor: pointer;    
+}
+
+.redes-sociais img:hover{
+    transform: scale(1.1);
+}
+
+.copyright-bar{
+    border: 0;
+    height: 1px;
+    background-color: var(--text-color);
+    width: 92vw;
+    margin-bottom: 10px;
+}
+
+.copyright-text{
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
 }
