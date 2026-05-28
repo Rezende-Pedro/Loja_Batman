@@ -75,7 +75,7 @@ nav ul li a:hover{
  
  .card-product img{
     width: 100%;
-    height: 300px;
+    height: 250px;
     object-fit: cover; /*fFaz a imagem preencher o espaço sem amassar*/   
     
  }
@@ -89,7 +89,6 @@ nav ul li a:hover{
     margin-bottom: 20px;
  }
 .preco{
-    
     font-size: 2rem;
     margin-bottom: 10px;
 }
@@ -199,7 +198,7 @@ h4{
     height: 1px;
     background-color: var(--text-color);
     width: 92vw;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 .copyright-text{
